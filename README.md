@@ -1,14 +1,14 @@
-# Lab 1 - *Tumblr_Codepath*
+# Lab 1 - *Codepath_Tumblr*
 
 **Tumblr_Codepath** is a photo browsing app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
 
-Time spent: **X** hours spent in total
+Time spent: **2** hours spent in total
 
 ## User Stories
 
 The following **required** user stories are complete:
 
-- [ ] User can scroll through a feed of images returned from the Tumblr API (5pts)
+- [x] User can scroll through a feed of images returned from the Tumblr API (5pts)
 
 The following **stretch** user stories are implemented:
 
