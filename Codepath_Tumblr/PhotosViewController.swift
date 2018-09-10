@@ -29,6 +29,10 @@ var posts: [[String: Any]] = []
         return posts.count
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let post = posts[indexPath.row]
@@ -81,6 +85,19 @@ var posts: [[String: Any]] = []
         task.resume()
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UITableViewCell
+        if let indexPath = tableView.indexPath(for: cell) {
+            let post = self.posts[(indexPath.row)]
+            if let photos = post["photos"] as? [[String: Any]] {
+                let photo = photos[0]
+                let original = photo["original_size"] as! [String: Any]
+                let urlPath = original["url"] as! String
+                let detailViewController = segue.destination as! PhotoDetailsViewController
+                detailViewController.imageUrl = urlPath
+            }
+        }
+    }
 
     /*
     // MARK: - Navigation

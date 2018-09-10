@@ -16,6 +16,7 @@
 		CE9CD0482140C74900FE4701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9CD0462140C74900FE4701 /* LaunchScreen.storyboard */; };
 		CE9CD0532140C74900FE4701 /* Codepath_TumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9CD0522140C74900FE4701 /* Codepath_TumblrTests.swift */; };
 		CE9CD05E2140C74900FE4701 /* Codepath_TumblrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9CD05D2140C74900FE4701 /* Codepath_TumblrUITests.swift */; };
+		CEEDE54D21462DB0008709AF /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDE54C21462DB0008709AF /* PhotoDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		CE9CD0592140C74900FE4701 /* Codepath_TumblrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Codepath_TumblrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9CD05D2140C74900FE4701 /* Codepath_TumblrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codepath_TumblrUITests.swift; sourceTree = "<group>"; };
 		CE9CD05F2140C74900FE4701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEDE54C21462DB0008709AF /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				CE9CD0492140C74900FE4701 /* Info.plist */,
 				CE08AAFC2140CBAD0006F4E8 /* PhotosViewController.swift */,
 				CE08AAFE2140CD050006F4E8 /* PhotoCell.swift */,
+				CEEDE54C21462DB0008709AF /* PhotoDetailsViewController.swift */,
 			);
 			path = Codepath_Tumblr;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEEDE54D21462DB0008709AF /* PhotoDetailsViewController.swift in Sources */,
 				CE9CD03E2140C74900FE4701 /* AppDelegate.swift in Sources */,
 				CE08AAFF2140CD050006F4E8 /* PhotoCell.swift in Sources */,
 				CE08AAFD2140CBAD0006F4E8 /* PhotosViewController.swift in Sources */,
